@@ -1,0 +1,92 @@
+.hw100{
+  height: 830px ;
+  width: 100%;
+}
+.flexBox{
+   display: flex;
+   justify-content: flex-end;
+}
+.title{
+  
+}
+.displayNone{
+  display: none;
+}
+.displayBlock{
+  display: block;
+}
+.nav{
+  padding: 10px;
+  height: 50px;
+  width: 100%;
+  background-color:rgb(14, 15, 15);
+  position: fixed;
+}
+.link{
+  color: wheat;
+  margin-right: 20px;
+  font-size: 20px;
+}
+.mgLeft20{
+  margin-left: 20px;
+}
+.mgTop20{
+  margin-top: 20%;
+}
+.w40{
+   width: 40%;
+   
+}
+.floatLeft{
+   float: left;
+}
+.floatRight{
+  float: right;
+}
+.w60{
+   width: 60%;
+}
+.body-left{
+  text-align: center;
+  padding: 50px;
+   width: 40%;
+   height: 70%;
+  
+}
+.register-form{
+  text-align: left;
+  padding-left: 100px;
+}
+.register-form input{
+ width: 100%;
+ 
+}
+.alert_message{
+  color: red;
+}
+.birth_select{
+  
+  width: 70%;
+}
+
+
+.body-right{
+   width: 60%;
+   height: 100%;
+   background-color: rgb(137, 238, 69); 
+   border-top-left-radius: 10% 50%;
+   border-bottom-left-radius: 10% 50%;
+   text-align: center;
+   color:white;
+   padding: 100px;
+}
+.fa-biking{
+  margin-top: 100px;
+  font-size: 150px;
+  animation: mover 1s alternate infinite;
+  -webkit-animation: mover 1s alternate infinite;
+}
+@keyframes mover {
+  0% { transform: translateY(0); -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); }
+  100% { transform: translateY(-50px); -webkit-transform: translateY(-50px); -moz-transform: translateY(-50px); -ms-transform: translateY(-50px); -o-transform: translateY(-50px); }
+}
